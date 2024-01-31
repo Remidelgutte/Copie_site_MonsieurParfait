@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: "open sans", sans-serif;
+  font-style: normal;
+  position: relative;
+  height: 100vh;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  background: #222429;
+  padding: 40px 0px;
+  z-index: 333;
+}
+.menu-nav {
+  list-style: none;
+  margin-top: 48px;
+}
+.menu-nav .nav {
+  text-align: center;
+}
+.menu-nav ul {
+  padding: 0;
+  margin: 0;
+}
+.menu-nav a {
+  list-style: none;
+  text-decoration: none;
+  color: #b1b1b1;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: block;
+}
+.menu-nav a:hover {
+  color: #fff;
+}
+.copy-right {
+  color: #b1b1b1;
+  text-align: center;
+}
+.index-content {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-left: 235px;
+  background-image: url(img/monsieurparfait.webp);
+  background-size: cover;
+}
+.index-content-title {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.index-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 960px;
+}
+.title-index {
+  display: flex;
+  font-size: 4vw;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.index-social {
+  position: fixed;
+  right: 5rem;
+  bottom: 16rem;
+}
+.index-social ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2rem;
+  text-align: center;
+}
+.index-social li a {
+  text-decoration: none;
+  color: #b1b1b1;
+}
+.index-social li a:hover {
+  color: #fff;
+}
+.index-social li a i {
+  background-color: #333;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.index-social li a i::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+}
+.contact-content {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-left: 235px;
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+.section-contact {
+  position: absolute;
+  color: #fff;
+  text-align: left;
+  width: 90%;
+  left: 25rem;
+  line-height: 1.5;
+}
+span {
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #333;
+  padding: 5px 10px;
+}
+h2 {
+  font-size: 40px;
+  line-height: 3rem;
+  margin: 0;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.contact-content-column {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  max-width: 100%;
+  top: 10rem;
+}
+.contact-content-column div a {
+  text-decoration: none;
+  color: #b1b1b1;
+  justify-content: center;
+}
+.contact-content-column div a:hover {
+  color: #fff;
+}
+.features-content {
+  padding: 30px;
+  padding-top: 35px;
+  flex-direction: column;
+  background-color: #333;
+  border-radius: 10%;
+  text-align: center;
+  height: 110px;
+}
+.contact-column {
+  border: #b1b1b1 2px solid;
+  border-radius: 10%;
+  width: 264px;
+}
+.features-content h4 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #b1b1b1;
+  margin-bottom: 15px;
+}
+.features-icon {
+  display: flex;
+  margin-bottom: 28px;
+  justify-content: center;
+}
+.features-icon i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: black;
+  border-radius: 50%;
+}
+.adress {
+  color: #b1b1b1;
+}
